@@ -1,0 +1,478 @@
+{
+  "tipo_texto": "Resumo",
+  "nivel": "ENEM",
+  "objetivo": "Apresentar de forma objetiva, completa e fiel as ideias centrais de uma obra, incluindo livremente spoilers e o desfecho da narrativa, sem emitir opiniões, críticas ou interpretações pessoais.",
+  "estrutura": {
+    "tipo": "Estrutura global",
+    "descricao": "O texto deve funcionar como um resumo contínuo, organizado em parágrafos articulados entre si, sem subtítulos visíveis na saída final.",
+    "quantidade_paragrafos": {
+      "minimo": 12,
+      "ideal": 15,
+      "maximo": 18
+    },
+    "regras_globais": {
+      "minimo_palavras_por_paragrafo": 80,
+      "aplicacao": "Todos os parágrafos, sem exceção.",
+      "contagem": "A contagem considera palavras separadas por espaços, incluindo nomes próprios, números e termos hifenizados como uma única palavra.",
+      "flexibilidade_frases": "A quantidade de frases é apenas orientativa e pode ser ampliada para garantir o mínimo de 80 palavras.",
+      "continuidade": "Os parágrafos devem formar uma sequência lógica, coesa e progressiva.",
+      "subtitulos_na_saida": false
+    },
+    "paragrafos": [
+      {
+        "ordem": 1,
+        "nome": "Introdução",
+        "objetivo": "Apresentar a obra e contextualizar o leitor.",
+        "conteudos_obrigatorios": [
+          "Título da obra",
+          "Autor",
+          "Gênero literário (quando relevante)",
+          "Tema central",
+          "Contextualização breve da narrativa"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 2,
+            "max": 4
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 2,
+        "nome": "Contexto Inicial",
+        "objetivo": "Apresentar o cenário, o período histórico (quando relevante) e a situação inicial da narrativa.",
+        "conteudos_obrigatorios": [
+          "Tempo",
+          "Espaço",
+          "Situação inicial",
+          "Condições que dão origem ao conflito"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 3,
+            "max": 5
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 3,
+        "nome": "Personagens Principais",
+        "objetivo": "Apresentar os personagens essenciais e seus papéis na história.",
+        "conteudos_obrigatorios": [
+          "Protagonista",
+          "Antagonista (quando existir)",
+          "Personagens secundários relevantes",
+          "Objetivos dos personagens"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 3,
+            "max": 5
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 4,
+        "nome": "Início do Conflito",
+        "objetivo": "Explicar como surge o conflito principal.",
+        "conteudos_obrigatorios": [
+          "Evento desencadeador",
+          "Primeiros obstáculos",
+          "Consequências iniciais"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 3,
+            "max": 5
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 5,
+        "nome": "Desenvolvimento I",
+        "objetivo": "Narrar os acontecimentos principais da primeira parte da obra.",
+        "conteudos_obrigatorios": [
+          "Eventos essenciais",
+          "Mudanças importantes",
+          "Evolução dos personagens"
+        ],
+        "regras": [
+          "Seguir ordem cronológica.",
+          "Priorizar acontecimentos relevantes."
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 3,
+            "max": 6
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 6,
+        "nome": "Desenvolvimento II",
+        "objetivo": "Apresentar a evolução do conflito.",
+        "conteudos_obrigatorios": [
+          "Novos desafios",
+          "Conflitos intermediários",
+          "Mudanças na narrativa"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 3,
+            "max": 6
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 7,
+        "nome": "Desenvolvimento III",
+        "objetivo": "Explicar os acontecimentos que aproximam a história do clímax.",
+        "conteudos_obrigatorios": [
+          "Eventos decisivos",
+          "Transformações importantes",
+          "Consequências para os personagens"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 3,
+            "max": 6
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 8,
+        "nome": "Clímax",
+        "objetivo": "Apresentar o momento de maior tensão da narrativa.",
+        "conteudos_obrigatorios": [
+          "Confronto principal",
+          "Decisões importantes",
+          "Ponto máximo do conflito"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 3,
+            "max": 5
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 9,
+        "nome": "Resolução",
+        "objetivo": "Narrar como o conflito começa a ser solucionado.",
+        "conteudos_obrigatorios": [
+          "Consequências do clímax",
+          "Mudanças definitivas",
+          "Encaminhamento do desfecho"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 3,
+            "max": 5
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 10,
+        "nome": "Desfecho",
+        "objetivo": "Relatar claramente o final da história.",
+        "conteudos_obrigatorios": [
+          "Final dos personagens principais",
+          "Resultado do conflito",
+          "Destino dos envolvidos"
+        ],
+        "observacoes": [
+          "Spoilers são obrigatórios quando necessários para explicar a obra.",
+          "O final deve ser descrito de forma completa e objetiva."
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 3,
+            "max": 5
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 11,
+        "nome": "Consequências Finais",
+        "objetivo": "Explicar as consequências finais dos acontecimentos para o universo da narrativa.",
+        "conteudos_obrigatorios": [
+          "Mudanças permanentes",
+          "Situação final",
+          "Impactos para os personagens"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 2,
+            "max": 4
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      },
+      {
+        "ordem": 12,
+        "nome": "Conclusão",
+        "objetivo": "Encerrar o resumo sintetizando a mensagem central da obra.",
+        "conteudos_obrigatorios": [
+          "Síntese da narrativa",
+          "Mensagem principal",
+          "Encerramento objetivo"
+        ],
+        "proibicoes": [
+          "Opiniões pessoais",
+          "Avaliações da qualidade da obra",
+          "Recomendações ao leitor"
+        ],
+        "tamanho_recomendado": {
+          "frases": {
+            "min": 2,
+            "max": 4
+          },
+          "palavras": {
+            "min": 80,
+            "regra": "Obrigatória conforme a estrutura global."
+          }
+        }
+      }
+    ]
+  },
+  "linguagem": {
+    "registro": "Formal",
+    "pessoa": "Terceira pessoa",
+    "tempo_verbal": [
+      "Presente do indicativo (preferencial)",
+      "Passado, quando necessário"
+    ],
+    "caracteristicas": [
+      "Objetividade",
+      "Clareza",
+      "Coesão",
+      "Coerência",
+      "Impessoalidade",
+      "Precisão lexical"
+    ]
+  },
+  "conectivos": {
+    "inicio": [
+      "Inicialmente",
+      "No início da narrativa",
+      "A princípio"
+    ],
+    "sequencia": [
+      "Em seguida",
+      "Posteriormente",
+      "Depois",
+      "Na sequência",
+      "Ao longo da narrativa"
+    ],
+    "adicao": [
+      "Além disso",
+      "Também",
+      "Ainda",
+      "Ademais"
+    ],
+    "causa": [
+      "Porque",
+      "Devido a",
+      "Em razão de",
+      "Como consequência"
+    ],
+    "conclusao": [
+      "Por fim",
+      "Ao final",
+      "Assim",
+      "Desse modo",
+      "Dessa forma"
+    ]
+  },
+  "conteudos_permitidos": [
+    "Tema principal",
+    "Enredo completo",
+    "Personagens",
+    "Conflitos",
+    "Clímax",
+    "Desfecho",
+    "Spoilers",
+    "Destino dos personagens",
+    "Mensagem central"
+  ],
+  "conteudos_proibidos": [
+    "Opiniões pessoais",
+    "Críticas",
+    "Avaliações",
+    "Recomendações",
+    "Comparações subjetivas",
+    "Juízo de valor",
+    "Expressões como 'eu acho', 'na minha opinião', 'gostei', 'não gostei'"
+  ],
+  "criterios_qualidade": {
+    "fidelidade_obra": true,
+    "objetividade": true,
+    "coesao": true,
+    "coerencia": true,
+    "impessoalidade": true,
+    "clareza": true,
+    "uso_palavras_proprias": true,
+    "eliminar_detalhes_secundarios": true,
+    "manter_essencia_da_historia": true,
+    "explicar_final_completo": true,
+    "permitir_spoilers": true,
+    "minimo_80_palavras_por_paragrafo": true
+  },
+  "elementos_narrativos": {
+    "personagens": {
+      "obrigatorio": true,
+      "descricao": "Apresentar apenas os personagens essenciais para compreender a narrativa."
+    },
+    "conflito": {
+      "obrigatorio": true,
+      "descricao": "Explicar o principal problema enfrentado pelos personagens."
+    },
+    "tempo": {
+      "obrigatorio": false
+    },
+    "espaco": {
+      "obrigatorio": false
+    },
+    "tema": {
+      "obrigatorio": true
+    },
+    "climax": {
+      "obrigatorio": true
+    },
+    "desfecho": {
+      "obrigatorio": true,
+      "descricao": "O final deve ser explicado integralmente, incluindo spoilers relevantes."
+    }
+  },
+  "estilo": {
+    "frases": {
+      "preferencia": [
+        "Curtas",
+        "Médias"
+      ],
+      "comprimento_medio_palavras": {
+        "min": 12,
+        "max": 25
+      }
+    },
+    "voz": "Ativa",
+    "repeticoes": "Evitar",
+    "adjetivacao": "Moderada",
+    "citacoes": "Não utilizar, salvo quando indispensável."
+  },
+  "boas_praticas": [
+    "Ler toda a obra antes de resumir.",
+    "Identificar os acontecimentos principais.",
+    "Selecionar apenas informações essenciais.",
+    "Escrever com as próprias palavras.",
+    "Explicar integralmente o desfecho quando necessário.",
+    "Revisar coesão e coerência.",
+    "Verificar ortografia e pontuação.",
+    "Contar as palavras de cada parágrafo e garantir o mínimo obrigatório de 80 palavras."
+  ],
+  "erros_comuns": [
+    "Transformar o resumo em resenha.",
+    "Inserir opiniões pessoais.",
+    "Copiar trechos do livro.",
+    "Narrar acontecimentos irrelevantes.",
+    "Pular fatos essenciais.",
+    "Omitir o final da obra.",
+    "Usar linguagem informal.",
+    "Escrever períodos muito longos.",
+    "Quebrar a sequência lógica da narrativa.",
+    "Produzir qualquer parágrafo com menos de 80 palavras."
+  ],
+  "comparacao": {
+    "resumo": {
+      "objetivo": "Informar completamente.",
+      "opiniao": false,
+      "analise": false,
+      "critica": false,
+      "descricao": true,
+      "spoilers": true
+    },
+    "resenha": {
+      "objetivo": "Informar e avaliar.",
+      "opiniao": true,
+      "analise": true,
+      "critica": true,
+      "descricao": true,
+      "spoilers": "Opcional"
+    }
+  },
+  "modelo_saida": {
+    "formato": "Texto corrido",
+    "estrutura_global": {
+      "quantidade_paragrafos": {
+        "minimo": 12,
+        "ideal": 15,
+        "maximo": 18
+      },
+      "minimo_palavras_por_paragrafo": 80,
+      "subtitulos_visiveis": false,
+      "ordem": [
+        "Introdução",
+        "Contexto inicial",
+        "Personagens principais",
+        "Início do conflito",
+        "Desenvolvimento I",
+        "Desenvolvimento II",
+        "Desenvolvimento III",
+        "Clímax",
+        "Resolução",
+        "Desfecho",
+        "Consequências finais",
+        "Conclusão"
+      ]
+    },
+    "validacao_final": {
+      "todos_paragrafos_com_80_ou_mais_palavras": true,
+      "sequencia_logica_preservada": true,
+      "desfecho_completo_incluido": true,
+      "opinioes_pessoais_ausentes": true
+    }
+  }
+}
